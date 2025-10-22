@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --color-black: #000;
+    --color-btn: #717cff;
+    --color-white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    color: #7d7d7d;
+
+}
+
+.header__block {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.b {
+    border: 2px solid grey;
+}
+
+.header__list {
+    display: flex;
+    gap: 73px;
+}
+
+.header_btn {
+    border: 1px solid var(--color-btn);
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.header__link {
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--color-black);
+}
+
+// section help
+
+.help__block {
+    display: flex;
+    justify-content: space-between;
+    gap: 61px;
+    align-items: flex-start;
+}
+
+.help__build {
+    color: var(--color-btn);
+}
+
+.help__title {
+    font-weight: 900;
+    font-size: 56px;
+    color: #2f2f2f;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    width: 550px;
+}
+
+.help__text {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 173%;
+    width: 632px;
+}
+
+.help__link {
+    display: inline-block;
+    width: 262px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--color-btn);
+    margin-top: 42px;
+    margin-bottom: 100px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 182%;
+    color: var(--color-white);
+}
+
+.icon {
+    margin-left: 35px;
+}
+
+.help__list {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    gap: 20px;
+}
+
+.help__item:hover {
+    padding: 3px;
+    border: 2px solid var(--color-btn);
+}
+
+.help__item {
+    padding: 3px;
+    border: 2px solid var(--color-white);
+}
+
+// section brend
+
+.brend {
+    background-color: #fafafa;
+}
+
+.brend__block {
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 54px;
+}
+
+.brend__title {
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--colors-black);
+}
+
+.brend__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+    margin-bottom: 104px;
+}
+
+.brend__pull_list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.brend__nuqta {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #7d7d7d;
+}
+
+.brend__nuqta:hover {
+    background-color: var(--color-btn);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+// section servise
+
+
+.service__block {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+.service__title {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 146%;
+    color: var(--color-black);
+}
+
+.service__text {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 110px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 173%;
+    text-align: center;
+}
+
+.service__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.service__item {
+    width: 350px;
+    // border: 1px solid red;
+    padding: 31px;
+    text-align: start;
+}
+
+.service__sub_title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 154%;
+    color: #37474f;
+}
+
+.service__link {
+    display: inline-block;
+    margin-top: 30px;
+    color: var(--color-btn);
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: var(--color-btn);
+}
+
+.icon1 {
+    margin-left: 5px;
+}
+
+.service__sub_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.03em;
+    color: rgba(55, 71, 79, 0.72);
+}
